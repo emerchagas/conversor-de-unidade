@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!-- inicio head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <title>Conversor</title>
+</head>
+<!-- inicio corpo -->
+
+<body>
+    <h1>Conversor de Unidades</h1>
+    <!-- formulario -->
+
+    <form>
+        <label for="valor">Insira um Valor</label>
+        <input type="number" id="valor" />
+
+        <label for="categoria">Selecione uma Categoria</label>
+        <select id="categoria" onchange="atualizarUnidades()">
+            <option value="comprimento">Comprimento</option>
+            <option value="peso">Peso</option>
+            <option value="temperatura">Temperatura</option>
+        </select>
+
+        <label for="origem">Converter de</label>
+        <select id="origem"></select>
+
+        <label for="destino">Converter para</label>
+        <select id="destino"></select>
+
+        <button type="button" onclick="converter()">Converter</button>
+    </form>
+    <!-- fim do formulario -->
+    <div id="resultado"></div>
+
+</body>
+
+</html>
+<!-- fim do html -->

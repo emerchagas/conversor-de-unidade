@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.909);
+}
+/* texto converter */
+h1 {
+    text-align: center;
+    color: mediumslateblue;
+}
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+/* textos  */
+label {
+    margin-top: 10px;
+    color: mediumorchid;
+    text-align: center;
+}
+/* caixa e texto */
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+/* botão */
+
+button {
+    margin-top: 20px;
+    background-color: purple;
+    color: aliceblue;
+}
+/* div resultado do texto */
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+/* fim do Css */
